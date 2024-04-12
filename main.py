@@ -173,7 +173,7 @@ def write2File(user_dict, code_path, score_path, problem_list, mode=3):
     df.index.name = 'ID'
     writer = pd.ExcelWriter(score_path)
     df.to_excel(writer)
-    writer.save()
+    writer.close()
     print('写入文件完成！')
 
     '''

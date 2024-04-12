@@ -1,6 +1,6 @@
 threadNumOfCode = 6
 threadNumOfSubmit = 6
-driver_path = r"/Users/qian.wu5/Library/Application Support/Google/Chrome"
+driver_path = r"/Users/qian.wu5/Library/Application Support/Google/Chrome"  # Your chromeDirver path
 
 teacherName = "HH2"
 teacherId = "scshuanghai"
